@@ -1,0 +1,7 @@
+.shopping-list__list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    overflow: auto;
+}

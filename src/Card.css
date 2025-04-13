@@ -1,0 +1,26 @@
+.card {
+    width: 100%;
+}
+
+label.card-label {
+    display: flex;
+    gap: 10px;
+    background-color:#dbdbdb50;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+label[data-status=true] {
+    opacity: 0.3;
+    text-decoration: line-through;
+}
+
+label.card-label input[type=text] {
+    all: unset;
+    width: 100%;
+    border-bottom: 2px solid white;
+    background-color: unset;
+    text-align: start;
+}
